@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+    <item
+        android:id="@+id/yt"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="You Tube " />
+    <item
+        android:id="@+id/image"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Image "/>
+    <item
+        android:id="@+id/site"
+        android:icon="@drawable/stackoverflow"
+        android:title="StackOverflow "/>
+    <item
+        android:id="@+id/countries"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Countries "/>
+
+    <item
+        android:id="@+id/bottomActivity"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="BottomMenu "/>
+
+    </group>
+
+</menu>
