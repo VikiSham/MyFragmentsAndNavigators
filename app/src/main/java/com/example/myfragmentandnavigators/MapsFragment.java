@@ -55,6 +55,8 @@ public class MapsFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
+       
+        //get the information from JsonActivity and put it in the fragment by Bundle variable
         View view = inflater.inflate(R.layout.fragment_maps, container, false);
         lat  = this.getArguments().getDouble("latKey");
         lon  = this.getArguments().getDouble("lonKey");
