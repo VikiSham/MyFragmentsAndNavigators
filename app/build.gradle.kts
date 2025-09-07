@@ -5,12 +5,11 @@ plugins {
 
 android {
     namespace = "com.example.myfragmentandnavigators"
-    compileSdk = 33
-
+    compileSdk = 36
     defaultConfig {
         applicationId = "com.example.myfragmentandnavigators"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
